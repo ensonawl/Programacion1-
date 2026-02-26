@@ -87,4 +87,8 @@ void main() {
     }
 
     CuerpoCeleste plutonEnano = new CuerpoCeleste("Plutón", 884, CuerpoCeleste.TipoCuerpoCeleste.PLANETA_ENANO);
+    
+    for (CuerpoCeleste planeta : planetas) {
+        System.out.println(planeta.toString());
+    }
 }
